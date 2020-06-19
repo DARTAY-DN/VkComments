@@ -25,6 +25,6 @@ while int(sex) < int(kolvo):
         sex += 1
         time.sleep(int(delay))
     except vk_api.exceptions.Captcha as captcha:
-          continue
+          continueоввов
     
 
